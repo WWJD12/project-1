@@ -5,26 +5,29 @@
     <meta> http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    </head>
+    <link rel="stylesheet" href="./style.css">
+    </head
     <body>
         <section>
             <nav>
-                <img src="./assets/FES.svg" alt=""
+                <img src="./assets/FES.svg" class="logo"> alt="">
                 <ul>
                     <li><a href="about"><A>About</a></li>
-                        <li><a href="dicord">Discord</a></li>
-                        <li><a href="contact">Contact</a></li>
+                    <li><a href="discord">Discord</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
             <header>
+                <div class="row">
                 <div>
                     <h1>Best place to learn Frontend</h1>
-                    <p>Go from being an absolute beginner to pro with a simplified process.</p>
+                    <p class="subheader"></p> Go from being an absolute beginner to pro with a simplified process.</p>
                     <button>Start Now</button>
                 </div>
                 <figure>
                     <img src=".assets/laptop.png" alt="Home Page Image">
                     </figure>
+                </div>
                     </header>
                     </section>
                 <main>
@@ -58,7 +61,7 @@
                     </section>
                 </main>
                 
-        </section>
+        
     
     <footer>
         <img src="./assets/FES.svg" alt="">
