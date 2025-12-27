@@ -30,31 +30,51 @@
                 </div>
                     </header>
                     </section>
+
                 <main>
                     <section id="About">
                         <h2>About</h2>
+                        <div class="section_description">
+                            <div class="section_description--wrapper"
+                            <figure class="about_image">
+                    <img src=".assets/about.jpg" alt="">
+                    </figure>
                         <div>
-                            <p>hfwuihwnwfhnhdzjmohmhqwohmh3hr3mdhuhhmhumcrukjbvscimcj,xdzu3jhmhrijdqjdmhhdh2rhqhdjifhmhfjwf</p>
-                        <p>hfwuihwnwfhnhdzjmohmhqwohmh3hr3mdhuhhmhumcrukjbvscimcj,xdzu3jhmhrijdqjdmhhdh2rhqhdjifhmhfjwf</p>
+                            <p> class="section_description--para">
+                                hfwuihwnwfhnhdzjmohmhqwohmh3hr3mdhuhhmhumcrukjbvscimcj,xdzu3jhmhrijdqjdmhhdh2rhqhdjifhmhfjwf</p>
+                        <p class="section_description--para">
+                            hfwuihwnwfhnhdzjmohmhqwohmh3hr3mdhuhhmhumcrukjbvscimcj,xdzu3jhmhrijdqjdmhhdh2rhqhdjifhmhfjwf</p>
                         </div>
-                    <figure>
-                        <img src=".assets/about.jpg" alt="">
+                        </div>
+                        </section>
+
+                    <figure> 
+                        <img src=".assets/dicord.jpg" alt="">
                         <section id="dicord">
                             <h2>Discord</h2>
+                            <div class="section_description">
+                                <div class="section_description--wrapper">
                             <figure>
                                 <img src=".assets/discord.png" alt="discord">
                                 <div>
-                                    <p>jsfiojfjwmefjpjdqij,xdjjjwjdjrjwejjp,qjfefwjfwjwefjwjjfwefjfjwfjwf</p>
-                                    <p>jsfiojfjwmefjpjdqij,xdjjjwjdjrjwejjp,qjfefwjfwjwefjwjjfwefjfjwfjwf</p>
+                                    <p class="section_description--para">
+                                        jsfiojfjwmefjpjdqij,xdjjjwjdjrjwejjp,qjfefwjfwjwefjwjjfwefjfjwfjwf</p>
+                                    <p class="section_description--para"></p>
+                                        jsfiojfjwmefjpjdqij,xdjjjwjdjrjwejjp,qjfefwjfwjwefjwjjfwefjfjwfjwf</p>
+                                   </div>     
                                 </div>
+                                </div>
+                            </figure>
                         </section>
+
                         <section id="contact">
                             <h2>Contact</h2>
                             <form action="">
                                 <span>Email</span>
-                                <input type="text" placeholder="jane@example.com">
+                                <input type="email" placeholder="jane@example.com">
                                 <span>Message</span>
-                                <textarea type="text" placeholder="jane@example.com"></textarea>
+                                <textarea type="text" placeholder="Cool website, lets get connected"></textarea>
+                                <button>Contact Us!</button>
                             </form>
                         </section>
                     </figure>
@@ -64,11 +84,11 @@
         
     
     <footer>
-        <img src="./assets/FES.svg" alt="">
-        <div>
-            <a href="About">About</a>
-            <a href="Discord">Discord</a>
-            <a href="Contact">Contact</a>
+        <img class="footer_logo" src="./assets/FES.svg" alt="">
+        <div class="footer_links">
+            <a class="footer_link" href="About">About</a>
+            <a class="footer_link" href="Discord">Discord</a>
+            <a class="footer_link" href="Contact">Contact</a>
         </div>
         <p>copyright Frontend Simplified</p>
     </footer>
