@@ -56,6 +56,7 @@ li {
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,4 +153,29 @@ footer {
 
 .footer_links {
     padding: 0 16px;
+}
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 768px) {
+.row 
+     flex-direction: column;
+}
+.home__description{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__description--button {
+max-width: 240px;
+}
+
+h1 {
+   text-align: center;
+   font-size: 60px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28px;
 }
